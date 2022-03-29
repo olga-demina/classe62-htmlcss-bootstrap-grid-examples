@@ -1,0 +1,21 @@
+html {
+    font-size: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.selected-albums {
+   margin-top: 2rem; 
+}
+
+.album {
+    background-color: pink;
+    padding: 1rem;
+}
+
+.text-section {
+    padding: 2rem;
+    background-color: grey;
+}

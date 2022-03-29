@@ -1,0 +1,38 @@
+header {
+    background-color: pink;
+    height: 80px;
+    line-height: 80px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Logo */
+.logo-wrapper {
+    font-size: 1.6rem;
+}
+
+/* Menu */
+.menu-wrapper {
+    text-align: right;
+}
+
+.menu {
+    display: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+@media (min-width: 768px) { 
+    .menu {
+        display: block;
+    }
+
+    .burger {
+        display: none;
+    }
+}

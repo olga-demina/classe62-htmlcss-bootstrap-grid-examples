@@ -1,0 +1,58 @@
+html {
+    font-size: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.ms_container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    height: 80px;
+    line-height: 80px;
+    background-color: pink;
+}
+
+.logo-wrapper {
+    max-width: 5rem;
+}
+
+.logo-wrapper img {
+    vertical-align: middle;
+}
+
+.menu-wrapper ul li {
+    display: inline-block;
+    margin: 0 .5rem
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: lightblue;
+    padding: 5rem 0 1rem;
+}
+
+.jumbotron-content {
+    position: relative;
+    top: 3rem;
+}
+
+/* Plans */
+
+.plans {
+    margin-top: 4rem;
+}
+
+.plan-item {
+    border: 1px solid black;
+    padding: .5rem;
+}
